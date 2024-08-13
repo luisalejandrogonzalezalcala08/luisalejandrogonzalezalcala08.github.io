@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: url(../img/yo\ coorporativo\ sin\ logo.png) center/ cover;
+    background-position: top;
+    opacity: 90%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;    
+  }
+
+  .banner::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+   
+    opacity: 0.8;
+  }
+
+  .banner_info {
+    padding: 0.3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: right;
+    color: #fff;
+    margin: auto;
+  }
+
+  .banner_titulo{
+    line-height: 1.5;
+    font-size: 2em;
+    font-family: sans-serif;
+
+  }
+
+  .banner_comentario {
+
+    line-height: 2;
+    font-size: 0.9em;
+   font-family: sans-serif; 
+  }
