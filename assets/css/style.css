@@ -27,6 +27,18 @@ body {
   background-position: center;
   }
 
+  #Portafolio .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    }
+
+.grilla{
+
+  padding: 0 40px;
+
+}
 
 /* Contacto */
 
