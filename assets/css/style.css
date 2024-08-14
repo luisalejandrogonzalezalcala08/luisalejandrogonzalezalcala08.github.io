@@ -3,45 +3,61 @@
     padding: 0;
 }
 
-.banner {
-    background: url(../img/yo\ coorporativo\ sin\ logo.png) center/ cover;
-    background-position: top;
-    opacity: 90%;
-    height: 700px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: right;    
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/yo\ coorporativo\ sin\ logo.png");
+  opacity: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+/* Mis trabajos */
+
+#Experiencia .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   }
 
-  .banner::before{
-    content: "";
-    height: 100%;
-    width: 100%;
-   
-    opacity: 0.8;
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+.row {
+  justify-content: center;
+}
+
+a:visited {
+  color: inherit; 
+  text-decoration: none;
+}
+a {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
   }
 
-  .banner_info {
-    padding: 0.3em;
-    position: absolute;
-    width: 100%;
-    max-width: 700px;
-    text-align: right;
-    color: #fff;
-    margin: auto;
-  }
-
-  .banner_titulo{
-    line-height: 1.5;
-    font-size: 2em;
-    font-family: sans-serif;
+  .navbar-brand {
+    width: 100px;
+    }
 
   }
 
-  .banner_comentario {
-
-    line-height: 2;
-    font-size: 0.9em;
-   font-family: sans-serif; 
+  .reservados {
+    margin: 8px;
+    padding: 8px;
   }
